@@ -9,7 +9,7 @@ do
 		echo "Entered one"
 		echo "Enter the level of bandit you need password for"
 		read linenum
-		filename="/home/nikhil/banditpassword"
+		filename="./banditpassword"
 		line=0
 		flag=0
 		while read -r presentline
@@ -31,7 +31,7 @@ do
 		echo "Enter level number to be modified or inserted"
 		read linenum
 		newpass=1
-		filename="/home/nikhil/banditpassword"
+		filename="./banditpassword"
 		line=0
 		flag=0
 		while read -r presentline
